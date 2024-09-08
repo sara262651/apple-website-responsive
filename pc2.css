@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: red; */
+}
+.body{
+    background-color: rgb(223, 223, 248);
+    /* background-color: red; */
+}
+header {
+    background-color: black;
+    /* height: 60px; */
+    color: white;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+.center-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0px;
+    /* gap: 35px;
+    padding: 20px; */
+
+}
+nav ul li{
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 13px;
+}
+.fa-apple{
+    padding: 0px 5px;
+}
+.right-icons{
+    padding: 0 0 0 5px;
+}
+
+.icon {
+    font-size: 20px;
+}
+.fa-bars{
+    visibility: hidden;
+}
+
+.image1 {
+    background-color: rgb(214, 214, 214);
+    text-align: center;
+}
+.btn {
+    padding: 11px 21px;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+.btn1 {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto; */
+    z-index: 2;
+    color: #2997ff;
+    background-color: rgb(214, 214, 214);
+    border: 1px solid #2997ff;
+}
+.Macbook-Air{
+    background-color: rgb(214, 214, 214);
+    /* background-color: aliceblue; */
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.Macbook-Air img{
+    height: 300px;
+}
+.Macbook-Air h1{
+    font-weight: 500px;
+}
+.button,
+.button2 {
+    padding: 20px;
+}
+
+.btn2,
+.btn4 {
+    background-color: #2997ff;
+    color: white;
+    border: none;
+    margin: 0 10px;
+}
+.btn2:hover,
+.btn4:hover {
+    background-color: #2997ff;
+    color: white;
+    border: none;
+    margin: 0 10px;
+}
+
+.btn3,
+.btn5 {
+    color: #2997ff;
+    border: 1px solid #2997ff;
+    background-color: transparent;
+}
+
+.btn1:hover,
+.btn3:hover,
+.btn5:hover {
+    background-color: #2997ff;
+    color: white;
+    border: none;
+}
+.iPhone {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.iPhone img {
+    height: 300px;
+    width: 50%;
+}
+.section1,
+.section2,
+.section3 {
+    display: flex;
+    margin: 10px;
+}
+.box {
+    list-style-type: none;
+    width: 49%;
+    margin: 6px;
+    text-align: center;
+    padding-top: 18px;
+}
+.box1,
+.box4 {
+    background-color: black;
+    color: white;
+}
+.box2,
+.box3,
+.box5,
+.box6 {
+    background-color: rgb(214, 214, 214);
+    color: black;
+}
+.box2 img {
+    float: right;
+}
+
+.box3 {
+    position: relative;
+}
+/* .box3 img{
+    height: 700px;
+    width: 80%;
+} */
+
+.banner-text {
+    position: absolute;
+    bottom: 0;
+    /* bottom: 35px; */
+    left: 290px;
+}
+.carousel{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    transition-duration: 0.5s;
+}
+/* .box4 img{
+    width: 100%;
+    height: 400px;
+} */
+.carousel-item img{
+    height: 700px;
+    width: 100%;
+} 
+.footer {
+    background-color: rgb(214, 214, 214);
+    /* background-color: rgb(245, 245, 247); */
+    width: 100%;
+    margin-top: 4rem;
+
+  }
+  
+  .footer .content {
+    font-size: 13px;
+    width: 80%;
+    margin-left: 8rem;
+    padding-top: 2rem;
+    text-align: justify;
+  }
+  .footer .content p {
+    color: rgba(0, 0, 0, 0.40);
+  }
+  .content a,
+  .points a{
+    color: rgb(0, 0, 0, 0.40);
+  }
+  hr {
+    margin: auto;
+    color: rgba(0, 0, 0, 0.56);
+  }
+  .lists {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+  }
+  
+  .lists > div ul li {
+    list-style: none;
+    color: rgb(101, 99, 99);
+    padding-top: 5px;
+  }
+  .lists ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.56);
+  }
+  .lists ul li a:hover {
+    border-bottom: 1px solid black;
+  }
+  .line {
+    padding: 3rem 3rem;
+    color: rgba(0, 0, 0, 0.56);
+  }
+  .line a {
+    color: #2997ff;
+  }
+  
+  .last-line {
+    padding: 1rem 2rem;
+  }
+  .left {
+    display: flex;
+    justify-content: end;
+    margin-top: -25px;
+    color: rgba(0, 0, 0, 0.56);
+  }
+  @media only screen and (max-width:833px) {
+    .hide{
+        display: none;
+    }
+    .center-navbar{
+        justify-content: space-between;
+        padding: 10px 0;
+    }
+    .fa-bars{
+        visibility: visible;
+    }
+    img{
+        width: 100%;
+        max-width: 833px;
+        height: auto;
+    }
+
+     .section1,
+     .section2,
+     .section3 {
+        flex-direction: column;
+        align-items: center;
+     }
+
+     .box {
+        list-style-type: none;
+        width: 90%;
+        margin: 10px 0;
+     }
+     .box3{
+        position: relative;
+     }
+     .banner-text{
+        position: absolute;
+        bottom: 0;
+        left: 50px;
+        text-align: center;
+     }
+
+     .footer .content {
+        width: 95%;
+        margin: 0 auto;
+     }
+     .lists{
+        flex-direction: column;
+        align-items: normal;
+     }
+  }
+@media only screen and (min-width: 834px) and (max-width: 1024px) {
+    img{
+        width: 100%;
+        height: auto;
+    }
+    .pic1{
+        width: 50%;
+    }
+    .Macbook-Air img{
+        width: 50%;
+    }
+    .box3{
+        position: relative;
+    }
+    .banner-text{
+        position: absolute;
+        bottom: 0;
+        left: 100px;
+    }
+    .box{
+        list-style-type: none;
+    }
+}
